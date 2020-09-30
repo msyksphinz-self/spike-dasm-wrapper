@@ -1,9 +1,18 @@
 [package]
 name = "spike-dasm-wrapper"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["msyksphinz <msyksphinz.dev@gmail.com>"]
+repository = "https://github.com/msyksphinz-self/spike-dasm-wrapper"
 edition = "2018"
+categories = ["api-bindings", "RISC-V"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+description = "RISC-V instruction disassembler based on spike-dasm."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[build-dependencies]
+cc = "1.0"
+lib = "*"
