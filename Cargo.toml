@@ -15,4 +15,3 @@ description = "RISC-V instruction disassembler based on spike-dasm."
 
 [build-dependencies]
 cc = "1.0"
-lib = "*"
