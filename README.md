@@ -6,7 +6,7 @@ spike-dasm-wrapper is wrapper of spike-dasm in [riscv-isa-sim](https://github.co
 
 ```toml
 [dependencies]
-spike-dasm-wrapper = "0.0.1"
+spike-dasm-wrapper = "0.0.2"
 ```
 
 ## Example
